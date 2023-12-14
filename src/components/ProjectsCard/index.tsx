@@ -1,6 +1,9 @@
 import Image from "next/image"
 import github from "../../../public/github.svg"
 import share from "../../../public/share.svg"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faGithub } from "@fortawesome/free-brands-svg-icons"
+import { faShare } from "@fortawesome/free-solid-svg-icons"
 
 const ProjectsCard = () => {
     return(
@@ -11,11 +14,11 @@ const ProjectsCard = () => {
                 como está organizado o repositório... </p>
             <div>
                 <div>
-                    <Image src={github} alt={"logo do github"}/>
+                    <FontAwesomeIcon icon={faGithub} size="sm" className="h-4"/>
                     <p>Código no github</p>
                 </div>
                 <div>
-                    <Image src={share} alt={"Imagem de uma seta indicando o endereço on-line da aplicação"}/>
+                    <FontAwesomeIcon icon={faShare} size="sm" className="h-4"/>
                     <p>Aplicação</p>
                 </div>
             </div>
