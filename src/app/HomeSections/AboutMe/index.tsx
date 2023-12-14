@@ -1,4 +1,6 @@
+import Image from "next/image"
 import Link from "next/link"
+import github from "../../../../public/github.svg"
 
 const AboutMe = () => {
     return(
@@ -12,7 +14,7 @@ const AboutMe = () => {
                 <h3>Descubra aqui os meus projetos e as tecnologias que domino</h3>
                 <div>
                     <Link href={""}>Veja os projetos</Link>
-                    <img src="" alt="link to github" />
+                    <Image src={github} alt="logo do github"/>
                 </div>
             </div>
             <div>
