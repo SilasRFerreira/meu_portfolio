@@ -4,12 +4,12 @@ const Header = () => {
     return(
         <header>
             <div>
-                <h1>Silas</h1>
+                <h1>Meu Portfólio</h1>
                 <nav>
-                    <Link href={""}>Home</Link>
-                    <Link href={""}>Projetos</Link>
-                    <Link href={""}>Cotntatos</Link>
-                    <Link href={""}>Mídias Digitais</Link>
+                    <Link href={"/"}>Home</Link>
+                    <Link href={"#about"}>Sobre mim</Link>
+                    <Link href={"#projects"}>Projetos</Link>
+                    <Link href={"#contacts"}>Contatos</Link>
                 </nav>
             </div>
         </header>
