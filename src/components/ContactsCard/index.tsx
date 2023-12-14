@@ -1,7 +1,10 @@
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+
 const ContactsCard = () => {
     return(
         <li>
-            <img src="" alt="Imagem do aplicativo"/>
+            <FontAwesomeIcon icon={faWhatsapp} className="h-12"/>
             <div>
                 <h3>Nome do aplicativo</h3>
                 <p>Descrição de como fazer o contato</p>
