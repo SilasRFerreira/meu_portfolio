@@ -4,7 +4,7 @@ import github from "../../../../public/github.svg"
 
 const AboutMe = () => {
     return(
-        <section>
+        <section id="about">
             <div>
                 <img src="" alt="profile picture" />
                 <h3>Olá, meu nome é Silas</h3>

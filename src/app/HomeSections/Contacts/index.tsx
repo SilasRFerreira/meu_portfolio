@@ -3,7 +3,7 @@ import Greetings from "./Greetings"
 
 const Contacts = () => {
     return(
-        <section>
+        <section id="contacts">
             <Greetings/>
             <ContactsList/>
         </section>
