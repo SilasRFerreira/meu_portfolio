@@ -1,4 +1,5 @@
 import AboutMe from "./AboutMe"
+import Contacts from "./Contacts"
 import MyProjects from "./MyProjects"
 
 const HomeSections = () => {
@@ -6,6 +7,7 @@ const HomeSections = () => {
         <main>
             <AboutMe/>
             <MyProjects/>
+            <Contacts/>
         </main>
     )
 }
