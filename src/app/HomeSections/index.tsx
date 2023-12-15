@@ -4,7 +4,7 @@ import MyProjects from "./MyProjects"
 
 const HomeSections = () => {
     return(
-        <main>
+        <main className="w-full flex flex-col items-center">
             <AboutMe/>
             <MyProjects/>
             <Contacts/>
