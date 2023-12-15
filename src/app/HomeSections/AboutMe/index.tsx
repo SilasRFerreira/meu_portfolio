@@ -9,7 +9,7 @@ import profile from "../../../../public/perfil.jpg"
 
 const AboutMe = () => {
     return(
-        <section id="about" className="my-14 flex items-center justify-center w-full bg-gray-1">
+        <section id="about" className="flex items-center justify-center w-full bg-gray-1">
             <div className="my-14 items-center justify-center w-11/12 lg:w-4/5 space-y-10">            
                 <div className="flex space-x-10 items-center">
                     <Image src={profile} alt={"Imagem de perfil"} className="h-12 w-12 rounded-full"/>
@@ -21,7 +21,7 @@ const AboutMe = () => {
                     <h3 className="text-gray-2">Descubra aqui os meus projetos e as tecnologias que domino</h3>
                     <div className="flex space-x-4">
                         <div className="bg-primary-blue h-12 w-40 flex items-center justify-center rounded-lg">
-                            <Link href={"https://github.com/SilasRFerreira"} className="font-medium">Veja meus projetos</Link>
+                            <a href="https://github.com/SilasRFerreira" target="_blank" className="font-medium">Veja meus projetos</a>
                         </div>
                         <FontAwesomeIcon icon={faGithub} size="sm" className="h-12 w-12"/>
                     </div>
