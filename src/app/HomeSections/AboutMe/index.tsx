@@ -21,7 +21,7 @@ const AboutMe = () => {
                     <h3 className="text-gray-2">Descubra aqui os meus projetos e as tecnologias que domino</h3>
                     <div className="flex space-x-4">
                         <div className="bg-primary-blue h-12 w-40 flex items-center justify-center rounded-lg">
-                            <Link href={"https://github.com/SilasRFerreira"} className="font-medium">Veja meus projetos</Link>
+                            <a href="https://github.com/SilasRFerreira" target="_blank" className="font-medium">Veja meus projetos</a>
                         </div>
                         <FontAwesomeIcon icon={faGithub} size="sm" className="h-12 w-12"/>
                     </div>
