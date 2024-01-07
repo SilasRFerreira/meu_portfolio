@@ -5,13 +5,21 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import { faShare } from "@fortawesome/free-solid-svg-icons"
 
-const ProjectsCard = () => {
+
+interface ProjectProps{
+    title: string
+    languages: string
+    description: string
+    git?: string
+    link?: string
+}
+
+const ProjectsCard = ({title, languages, description, git, link}: ProjectProps) => {
     return(
         <li className="w-[310px] flex flex-col gap-4">
-            <h2 className="text-xl font-bold">Tittle</h2>
-            <small className="text-gray-2">Linguagens:</small>
-            <p className="text-gray-2">Descrição do projeto contendo as informações sobre finalidade da aplicação e 
-                como está organizado o repositório... </p>
+            <h2 className="text-xl font-bold">{title}</h2>
+            <small className="text-gray-2">Linguagens: {languages}</small>
+            <p className="text-gray-2">{description}</p>
             <div className="flex flex-wrap justify-between">
                 <div className="flex gap-4 items-center">
                     <FontAwesomeIcon icon={faGithub} size="sm" className="h-4"/>
@@ -19,7 +27,7 @@ const ProjectsCard = () => {
                 </div>
                 <div className="flex gap-4 items-center">
                     <FontAwesomeIcon icon={faShare} size="sm" className="h-4"/>
-                    <p>Aplicação</p>
+                    <a href={link} target="_blank">Aplicação</a>
                 </div>
             </div>
         </li>

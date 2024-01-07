@@ -19,7 +19,7 @@ const AboutMe = () => {
                     <h2 className="text-4xl font-bold">Eu <span className="text-primary-blue">adoro </span> 
                     criar e <span className="text-primary-blue">desenvolver</span> projetos</h2>
                     <p>Atualmente estou em transição de carreira aprendendo programação fontend e backend na Kenzie Academy Brasil.</p>
-                    <h3 className="">Descubra aqui os meus projetos e as tecnologias que domino!</h3>
+                    <h3 className="font-bold">Descubra aqui os meus projetos e as tecnologias que domino!</h3>
                     <div className="flex space-x-4">
                         <div className="bg-primary-blue h-12 w-40 flex items-center justify-center rounded-lg">
                             <a href="https://github.com/SilasRFerreira" target="_blank" className="font-medium text-white">Veja meus projetos</a>
@@ -27,7 +27,7 @@ const AboutMe = () => {
                         <FontAwesomeIcon icon={faGithub} size="sm" className="h-12 w-12"/>
                     </div>
                 </div>
-                <div className="flex space-x-4 flex-wrap justify-center">
+                <div className="flex space-x-4 flex-wrap max-sm:justify-center">
                     <FontAwesomeIcon icon={faHtml5} size="sm" className="h-12"/>
                     <FontAwesomeIcon icon={faCss3Alt} size="sm" className="h-12"/>
                     <FontAwesomeIcon icon={faJs} size="sm" className="h-12"/>
