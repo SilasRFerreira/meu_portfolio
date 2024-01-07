@@ -2,7 +2,7 @@ import ProjectsList from "./ProjectsList"
 
 const MyProjects = () => {
     return(
-        <section id="projects" className="flex items-center justify-center w-full">
+        <section id="projects" className="flex items-center justify-center w-full bg-black text-white">
             <div className="my-14 items-center justify-center w-11/12 lg:w-4/5 space-y-10">
                 <div className="flex flex-col gap-6">
                     <h2 className="text-2xl font-bold">Meus projetos</h2>

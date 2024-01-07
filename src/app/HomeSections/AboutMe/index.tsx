@@ -9,7 +9,7 @@ import profile from "../../../../public/perfil.jpg"
 
 const AboutMe = () => {
     return(
-        <section id="about" className="flex items-center justify-center w-full bg-gray-1">
+        <section id="about" className="flex items-center justify-center w-full">
             <div className="my-14 items-center justify-center w-11/12 lg:w-4/5 space-y-10">            
                 <div className="flex space-x-10 items-center">
                     <Image src={profile} alt={"Imagem de perfil"} className="h-12 w-12 rounded-full"/>
