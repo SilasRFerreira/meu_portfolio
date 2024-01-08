@@ -5,7 +5,7 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 
 const Footer = () => {
     return(
-        <footer className="w-full flex items-center justify-center">
+        <footer className="w-full flex items-center justify-center bg-black text-white">
             <div className="my-14 w-11/12 lg:w-4/5 flex flex-wrap justify-between max-sm:justify-center gap-8">                
                 <div className="flex flex-wrap justify-center items-center space-x-4 max-w-lg gap-6">
                     <Image src={profile} alt={"Foto de perfil"} className="h-12 w-12 rounded-full"/>
